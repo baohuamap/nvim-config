@@ -25,4 +25,4 @@ keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
 
-keymap.set("n", "<Leader>ff", ':lua require"telescope.builtin".find_files({ hidden = true })<CR>', opts)
+-- keymap.set("n", "<Leader>ff", ':lua require"telescope.builtin".find_files({ hidden = true })<CR>', opts)
